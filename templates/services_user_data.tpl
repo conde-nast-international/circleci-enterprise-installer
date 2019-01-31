@@ -113,7 +113,7 @@ cat <<EOF > /etc/circleconfig/telegraf/telegraf.conf
   service = "circleci-server"
   app = "circleci"
   env = "${env}"
-  host = "$(echo $HOSTNAME)"
+  host = "circleci-svr-${env}"
 EOF
 
 cat <<EOF > /etc/circleconfig/telegraf/datadog.conf
