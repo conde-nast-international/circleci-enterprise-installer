@@ -141,6 +141,12 @@ variable "tags" {
   default     = {}
 }
 
+variable "cloud_platform_tags" {
+  type        = "map"
+  description = "cloud platform tagging policy"
+  default     = {}
+}
+
 variable "enable_fluentd_logging" {
   description = "Flag to enable fluentd logging"
   default     = "false"
