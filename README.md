@@ -1,4 +1,4 @@
-# CircleCI Server Setup
+# CircleCI Server Setup !!! DEPRECATED
 
 This package allows you to easily orchestrate your CircleCI Server cluster in AWS using Terraform. For a full step by step guide to installing CircleCI Server with Terraform, see our [installation guide](https://circleci.com/docs/2.0/circleci-install-doc-v2-17.pdf#section=administration).
 
